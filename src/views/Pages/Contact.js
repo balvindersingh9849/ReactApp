@@ -18,7 +18,7 @@ export default function Careers() {
       <GridContainer direction="column" alignItems="center">
         <GridItem xs={100} sm={20} md={100} lg={20}>
           <a href={"tel:+918978400563"}>
-            <Button color="" style={{ width: "520px" }}>
+            <Button color="github" style={{ width: "220px" }}>
               <i
                 className={
                   classes.socialButtonsIcons +
@@ -61,9 +61,9 @@ export default function Careers() {
             </Button>
           </a>
         </GridItem>
-        <GridItem xs={12} sm={12} md={12} lg={12}>
+        {/* <GridItem xs={12} sm={12} md={12} lg={12}>
           <a href="https://localhost:6000/mail">
-            <Button color="#facebookColor" style={{ width: "220px" }}>
+            <Button color="facebookColor" style={{ width: "220px" }}>
               <i
                 className={
                   classes.socialButtonsIcons +
@@ -75,7 +75,7 @@ export default function Careers() {
               Form
             </Button>
           </a>
-        </GridItem>
+        </GridItem> */}
       </GridContainer>
     </div>
   );
